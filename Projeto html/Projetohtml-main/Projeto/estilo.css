@@ -2,7 +2,6 @@
 /* corprincipal #161A1E
 cor fundo #4F3F3B */
 
-
 .produtos{
     margin-top: 50px;
     display: flex;
@@ -23,11 +22,13 @@ cor fundo #4F3F3B */
     flex-direction: column;
     gap: 40px;
     margin-top: 20px;  
-    cursor: pointer;  
+    cursor: pointer; 
+    position: relative; 
 }
 
 .produto:hover{
-    box-shadow: 5px 5px 5px #E58E2D;     
+    box-shadow: 5px 5px 5px #E58E2D;
+    top: -10px;     
 }
 .produto:hover h2{
     color:#E58E2D;     
@@ -74,7 +75,7 @@ body{
     height: 80%;
     border-radius: 10px;
     margin-left: 2.5%;
-    margin-top: 20px;    
+    margin-top: 20px;        
 }
 
 .imagenmiranha{
