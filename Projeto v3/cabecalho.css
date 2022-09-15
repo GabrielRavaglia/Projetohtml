@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+}
+
+
+a{
+    margin-right: 20px;
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #E58E2D;
+    cursor: pointer;
+    top: -5px;
+}
