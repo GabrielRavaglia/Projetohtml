@@ -1,0 +1,276 @@
+
+/* corprincipal #161A1E
+cor fundo #4F3F3B */
+
+.produtos{
+    margin-top: 50px;
+    display: flex;
+    flex-direction:row; 
+    justify-content:center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;    
+}
+
+a{
+    margin-right: 20px;
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #E58E2D;
+    cursor: pointer;
+    top: -5px;
+}
+
+.produto{
+    width: 300px;
+    height: 200px;
+    background-color: #1b2025;
+    border-radius: 10px;  
+    box-shadow: 5px 5px 5px #0e1013;   
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 20px;  
+    cursor: pointer; 
+    position: relative; 
+}
+
+.produto:hover{
+    box-shadow: 5px 5px 5px #E58E2D;
+    top: -10px;     
+}
+.produto:hover h2{
+    color:#E58E2D;     
+}
+
+.produto:hover #fifa23{
+    color:#E58E2D;     
+}
+
+.produto:hover #gtav{
+    color:#E58E2D;     
+}
+
+.produto:hover #starwars{
+    color:#E58E2D;     
+}
+
+.banner{
+    width: 700px;
+    height: 300px;
+    background-color: rgb(165, 165, 165);
+    margin-left: 0 auto;
+}
+
+body{
+    background-color: #161A1E;    
+    border: 30px solid #3f3934;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+}
+
+.meio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #E58E2D; 
+   
+}
+
+.imagens{
+    width:  95%;
+    height: 80%;
+    border-radius: 10px;
+    margin-left: 2.5%;
+    margin-top: 20px;        
+}
+
+.imagenmiranha{
+    height: 185px;    
+    border-radius: 10px;
+    width: 285px;
+    margin-left: 2.5%;
+    margin-top: 20px;    
+}
+
+h2{
+    margin-left: 22%;
+    font-family: 'Kanit', sans-serif;
+    color: #fefefe;    
+}
+
+h2:hover{
+    color:#E58E2D ;
+}
+
+#gtav{
+    margin-left: 42%;
+    font-family: 'Kanit', sans-serif;
+    color: #fefefe;  
+}
+
+#gtav:hover{
+    color:#E58E2D ;
+}
+
+#fifa23{
+    margin-left: 38%;
+    font-family: 'Kanit', sans-serif;
+    color: #fefefe;  
+}
+
+#fifa23:hover{
+    color:#E58E2D ;
+}
+
+#starwars{
+    margin-left: 17.5%;
+    font-family: 'Kanit', sans-serif;
+    color: #fefefe;  
+}
+
+#starwars:hover{
+    color:#E58E2D ;
+}
+
+.midia{ 
+    margin-top: 50px; 
+    height: 520px;
+    width: 80%;     
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 10%;   
+    box-shadow: 5px 5px 5px #E58E2D;
+}
+
+.navegation{ 
+    margin-top: 20px; 
+    width: 80%;  
+    display: flex;
+    gap: 10px;
+    margin-left:10% ;    
+}
+
+label{    
+    width: 100%;
+    height: 90px;
+    border: 2px solid white;
+    margin: 6px;
+    border-radius: 5px; 
+    cursor: pointer;  
+    box-shadow: 5px 5px 5px #E58E2D;      
+}
+
+
+.bar1{
+    background: url("img/reddead/vdred.PNG")no-repeat center;
+    background-size: 100%;             
+}
+.bar2{
+    background: url("img/reddead/reddead2.jpg")no-repeat center;
+    background-size: 100%;
+}
+.bar3{
+    background: url("img/reddead/reddead3.jpg")no-repeat center;
+    background-size: 100%;
+}
+.bar4{
+    background: url("img/reddead/reddead4.jpg")no-repeat center;
+    background-size: 100%;
+}
+.bar5{
+    background: url("img/reddead/reddead5.jpg")no-repeat center;
+    background-size: 100%;
+}
+.bar6{
+    background: url("img/reddead/reddead1.jpg")no-repeat center;
+    background-size: 100%;
+}
+
+input{
+    display: none;
+}
+
+.slides{
+    display: flex;
+    width: 600%;
+    height: 100%;
+}
+
+.slide {
+    width: 16.66%;
+    transition: .6s;    
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+.slide iframe{
+    width: 1190.86px;
+    height: 100%;
+}
+
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1 {
+    margin-left: -8.33%;
+}
+
+#slide3:checked ~ .s1 {
+    margin-left: -16.66%;
+}
+
+#slide4:checked ~ .s1 {
+    margin-left: -24.989%;
+}
+
+#slide5:checked ~ .s1 {
+    margin-left: -33.319%;
+}
+
+#slide6:checked ~ .s1 {
+    margin-left: -41.7%;    
+}
+#slide6:checked ~ iframe {
+   width: 100%;   
+}
+
+.titulojogo{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+.descricao{
+    display: flex;
+    margin-top: 40px;    
+    justify-content: center;
+    margin-bottom: 40px;    
+}
+
+.descricao p{
+    width: 40%;
+    font-size: 20px;
+    line-height: 30px; 
+    border-right: 2px solid white;
+}
+
+.descricao ul{
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 20px;
+}
