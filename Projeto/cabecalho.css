@@ -14,9 +14,13 @@
 
 a{
     margin-right: 20px;
+    position: relative;
+    color: white;
+    text-decoration: none;
 }
 
 a:hover{
     color: #E58E2D;
     cursor: pointer;
+    top: -5px;
 }
