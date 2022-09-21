@@ -1,0 +1,52 @@
+.spider1{
+    background: url("img/spiderman/spider6.jpg");
+    background-size: 100%;             
+}
+.spider2{
+    background: url("img/spiderman/spider1.jpg")no-repeat center;
+    background-size: 100%;
+}
+.spider3{
+    background: url("img/spiderman/spider2.png")no-repeat center;
+    background-size: 100%;
+}
+.spider4{
+    background: url("img/spiderman/spider3.png")no-repeat center;
+    background-size: 100%;
+}
+.spider5{
+    background: url("img/spiderman/spider4.jpg")no-repeat center;
+    background-size: 100%;
+}
+.spider6{
+    background: url("img/spiderman/spider5.jpg")no-repeat center;
+    background-size: 100%;
+}
+
+
+
+.tlou21{
+    background: url("img/tlou2/tlou2.jpg")no-repeat center;
+    background-size: 100%;             
+}
+.tlou22{
+    background: url("img/tlou2/tlou26.jpg")no-repeat center;
+    background-size: 100%;
+}
+.tlou23{
+    background: url("img/tlou2/tlou22.jpg")no-repeat center;
+    background-size: 100%;
+}
+.tlou24{
+    background: url("img/tlou2/tlou23.jpg")no-repeat center;
+    background-size: 100%;
+}
+.tlou25{
+    background: url("img/tlou2/tlou24.jpg")no-repeat center;
+    background-size: 100%;
+}
+.tlou26{
+    background: url("img/tlou2/tlou25.jpg")no-repeat center;
+    background-size: 100%;
+}
+
