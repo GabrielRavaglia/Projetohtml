@@ -1,0 +1,24 @@
+.rodape{
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid white;
+    margin: 10px;
+    padding: 20px;
+    
+}
+
+.navfoter{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;   
+}
+
+.pfoter{
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 650px;
+    
+    
+}
